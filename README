@@ -1,0 +1,130 @@
+# 🎭 Deepfake Video Detection System
+
+A Deep Learning based web application that detects whether an uploaded video is REAL or FAKE using TensorFlow, OpenCV, and Streamlit.
+
+---
+
+## 📌 Project Overview
+
+This project analyzes uploaded videos by extracting frames and passing them through a trained Deep Learning model.
+
+The system predicts whether the video is:
+
+✅ REAL VIDEO
+
+⚠️ FAKE VIDEO
+
+along with a confidence score.
+
+---
+
+## 🚀 Features
+
+- Upload video files (.mp4, .avi, .mov)
+- Automatic frame extraction
+- Deep Learning based classification
+- Real-time prediction
+- Confidence score display
+- Interactive Streamlit dashboard
+- User-friendly interface
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- TensorFlow / Keras
+- OpenCV
+- NumPy
+- Streamlit
+
+---
+
+## 📂 Project Structure
+
+```text
+Deepfake-Video-Detection/
+│
+├── app.py
+├── deepfake_model.h5
+├── project.ipynb
+├── requirements.txt
+├── dataset/
+│   ├── videos_real/
+│   └── videos_fake/
+│
+└── README.md
+```
+
+---
+
+## 📊 Dataset
+
+The dataset contains real and fake videos used for training and testing the model.
+
+Videos are processed by:
+
+- Extracting frames
+- Resizing frames
+- Normalizing pixel values
+- Feeding them into the trained model
+
+---
+
+## ⚙️ Installation
+
+Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Run Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 🧠 Model Workflow
+
+1. Upload Video
+2. Extract Frames
+3. Preprocess Frames
+4. Run Deep Learning Model
+5. Predict REAL or FAKE
+6. Display Confidence Score
+
+---
+
+## 📸 Application Features
+
+- Video Upload Interface
+- Video Preview
+- Deepfake Detection
+- Confidence Score
+- Modern Dashboard UI
+
+---
+
+## 🎯 Future Improvements
+
+- Transfer Learning Models
+- Face Detection Integration
+- Improved Dataset
+- Higher Accuracy
+- Cloud Deployment
+
+---
+
+## 👩‍💻 Author
+
+**Anagha Kesav**
+
+Aspiring Machine Learning Engineer | Data Analytics Enthusiast
+
+---
+
